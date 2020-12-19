@@ -41,7 +41,7 @@ DacTone allows you to control the amplitude (volume) and offset (DC bias) of the
 
 ## Methods
 
-1. `int tone(int Hz)` - starts audio output at the requested frequency.  Acceptable input values are 0 to 5000.  Calling tone with no parameter `tone()` results in 880 Hz output.  Calling tone(0) silences output. tone() returns the actual frequency output.
+1. `tone(int Hz)` - starts audio output at the requested frequency.  Acceptable input values are 0 to 5000.  Calling tone with no parameter `tone()` results in 880 Hz output.  Calling tone(0) silences output.
 
 2. `noTone()` - silences audio output
 
