@@ -1,0 +1,9 @@
+DacTone	KEYWORD1
+tone	KEYWORD2
+noTone	KEYWORD2
+setVolume	KEYWORD2
+setFrequency	KEYWORD2
+getFrequency	KEYWORD2
+setOffset	KEYWORD2
+setShape	KEYWORD2
+isClipped	KEYWORD2
