@@ -3,7 +3,7 @@
 
 ## Introduction
  
-This Arduino library is meant for creating audio tones on an ESP32 microcontroller its internal digital-to-audio (DAC) converter.  The result is a well-formed sine wave on either of its two DAC pins, GPIO25 or GPIO26.  
+This Arduino library is meant for creating audio tones on an ESP32 microcontroller using its internal digital-to-audio (DAC) converter.  The result is a well-formed sine wave on either of its two DAC pins, GPIO25 or GPIO26.  
 
 ## Basic Usage
 
