@@ -35,21 +35,21 @@ audio.noTone();      // silence it
 4. SoundEffects - How to use lower-level code for sound generation
 5. FastTones - Shows accuracy of sine wave frequency
 
-## Low-level control
+## Waveform control
 
-DacTone allows you to control the amplitude (volume) and offset (DC bias) of the waveform.  If the volume and/pr bias exceed to output capabilities of the DAC, waveform clipping will result.  The isClipping() method will tell you if the current waveform is clipping.  Changing the amound of clipping can result in interesting sounds!
+DacTone allows you to control the amplitude (volume) and offset (DC bias) of the waveform.  If the volume and/or bias exceed to output capabilities of the DAC, waveform clipping will result.  The isClipping() method will tell you if the current waveform is clipping.  Changing the amound of clipping can result in interesting sounds!
 
 ## Code Documentation
 
-Each public method in DacTone.cpp is fully documented.
+See comments in DacTone.cpp for documentation of each public method.
 
 ## Known Issues
 
-1. DacTone seems to interferes with digitalInput under certain conditions.
-2. DacTone output may differ from requested frequency by several Hz.  This is usually not an issue, but a good musical ear may hear the difference! 
+1. DacTone seems to interferes with `digitalInput()` under certain conditions.
+2. DacTone output may differ from the requested frequency by several Hz.  This is usually not an issue, but a good musical ear may hear the difference! 
 
 ## Credits
 
-The low-level code for enabling sine wave output on the ESP32 is provided by [krzychb](https://github.com/krzychb).  See his [dac-cosine library](https://github.com/krzychb/dac-cosine) for more information.
+The low-level code for enabling sine wave output is provided by [krzychb](https://github.com/krzychb).  See his [dac-cosine library](https://github.com/krzychb/dac-cosine) for more information.
 
 
