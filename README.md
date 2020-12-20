@@ -13,7 +13,7 @@ First, include DacTone in your sketch:
 #include "DacTone.h"
 ```
 
-Next, instantiate an DacTone object:
+Next, instantiate a DacTone object:
 
 ```
 DacTone audio;
