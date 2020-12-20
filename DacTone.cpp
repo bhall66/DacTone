@@ -350,5 +350,4 @@ DacTone::DacTone (int channel) {
   dac_scale_set();                             // 100% volume
   dac_offset_set();                            // no offset
   dac_invert_set();                            // Sine wave
-  dac_output_enable(_channel);                 // enable output
 }
