@@ -13,7 +13,7 @@ First, include DacTone in your sketch:
 #include "DacTone.h"
 ```
 
-Next, instantiate an DacTone object:
+Next, instantiate a DacTone object:
 
 ```
 DacTone audio;
@@ -41,13 +41,13 @@ DacTone allows you to control the amplitude (volume) and offset (DC bias) of the
 
 ## Methods
 
-1. `int tone(int Hz)` - starts audio output at the requested frequency.  Acceptable input values are 0 to 5000.  Calling tone with no parameter `tone()` results in 880 Hz output.  Calling tone(0) silences output. tone() returns the actual frequency output.
+1. `tone(int Hz)` - starts audio output at the requested frequency.  Acceptable input values are 0 to 5000.  Calling tone with no parameter `tone()` results in 880 Hz output.  Calling tone(0) silences output.
 
 2. `noTone()` - silences audio output
 
 3. `setVolume(int volume)` - sets the amplitude of the waveform.  There are 4 levels of amplitude: 100, 50, 25, and 12.  These roughly correspond to voltage amplitudes of 3.2, 1.7, 1.0, and 0.6 volts.
 
-The following methods are less seldomly used, but may be helpful in certain cases:
+The following methods are used less often, but may be helpful in certain cases:
 
 4. `setOffset(int offset)` - sets the DC bias of the waveform.  Acceptable input values are -128 to +127.  The default offset of zero results in a DC bias of about 1.65V, which will allow full voltage swing at 100% volume without waveform clipping.
 
